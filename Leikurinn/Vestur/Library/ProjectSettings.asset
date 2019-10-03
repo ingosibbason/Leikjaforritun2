@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 55cb215997d5f4b8da0bac6fb7321d44
+  productGUID: f918d9228b2acd24fafcd18de47d53c1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Leikjaforritun2
+  productName: snow
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -448,7 +448,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: PN2qmWqBlQ9wQj99nsQzldVI5ZuGXbEW
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -507,14 +507,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Leikjaforritun2
+  metroPackageName: snow
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Leikjaforritun2
+  metroApplicationDescription: snow
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
