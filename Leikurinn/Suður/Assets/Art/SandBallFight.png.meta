@@ -12,6 +12,9 @@ TextureImporter:
     21300014: SandBallFight_7
     21300016: SandBallFight_8
     21300018: SandBallFight_9
+    21300020: SandBallFight_10
+    21300022: SandBallFight_11
+    21300024: SandBallFight_12
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -101,14 +104,14 @@ TextureImporter:
         y: 0
         width: 48
         height: 56
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5357143}
-      border: {x: 16, y: 0, z: 0, w: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8874cdd2a394ae2839617a6b4199bd
+      spriteID: 4d56e579006cd4431adf8a767eebbfd0
       vertices: []
       indices: 
       edges: []
@@ -117,10 +120,10 @@ TextureImporter:
       name: SandBallFight_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 17
+        x: 0
+        y: 48
+        width: 13
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,7 +131,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4119dced5cf2f4a199f095d9557b3930
+      spriteID: 873fbf24de28243a3930e6325f344392
       vertices: []
       indices: 
       edges: []
@@ -137,10 +140,10 @@ TextureImporter:
       name: SandBallFight_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 17
+        x: 35
+        y: 48
+        width: 13
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +151,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2981f715f6f634bcdb0b618934c3066e
+      spriteID: 75105867b02bc4b6f93c16115b6fdeca
       vertices: []
       indices: 
       edges: []
@@ -157,10 +160,10 @@ TextureImporter:
       name: SandBallFight_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 17
+        x: 13
+        y: 48
+        width: 22
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,7 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa126a3ae6e2c4f019d92e8f632bd6f9
+      spriteID: 8501b2e759915409da6911c5f7c29b0c
       vertices: []
       indices: 
       edges: []
@@ -178,9 +181,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 9
+        y: 36
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,7 +191,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450656ef1d55d48ebabbafdef7873061
+      spriteID: 871a66d65a12644f8a956546d362e60f
       vertices: []
       indices: 
       edges: []
@@ -197,10 +200,10 @@ TextureImporter:
       name: SandBallFight_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 9
+        x: 35
+        y: 36
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,7 +211,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ec0153efb6d4aed88b3cc8889f85fe
+      spriteID: 384ff496ef9be4c70a5568915abcd259
       vertices: []
       indices: 
       edges: []
@@ -217,10 +220,10 @@ TextureImporter:
       name: SandBallFight_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 9
+        x: 0
+        y: 17
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +231,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53e30ad3f99d3413f84e02f2ca5d4f52
+      spriteID: 9cc5ecc2a266b47bf8570f6c3f5fba67
       vertices: []
       indices: 
       edges: []
@@ -237,10 +240,10 @@ TextureImporter:
       name: SandBallFight_7
       rect:
         serializedVersion: 2
-        x: 31
+        x: 35
         y: 17
-        width: 17
-        height: 31
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,7 +251,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f5462163aa94ee8809146791eefd73
+      spriteID: e1d30d535362149deba8acb9947ac635
       vertices: []
       indices: 
       edges: []
@@ -257,10 +260,10 @@ TextureImporter:
       name: SandBallFight_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 17
-        width: 16
-        height: 31
+        x: 13
+        y: 36
+        width: 22
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c320b5d85024bed9f9fe9691e970cb
+      spriteID: 34d1e280e30614e898b1e169a7b16f12
       vertices: []
       indices: 
       edges: []
@@ -277,10 +280,10 @@ TextureImporter:
       name: SandBallFight_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 17
-        width: 16
-        height: 31
+        x: 0
+        y: 0
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +291,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eacd74db8f9f42e795a7ce095f7b5cf
+      spriteID: 0c16fb8fe6f174f58864fac933101a37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandBallFight_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a3a81f7287f4b8398d8e2e8355f2eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandBallFight_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452f99650903944aba8666ed0d4b1670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandBallFight_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196a1175d208145b1b6d7f01e89a9b53
       vertices: []
       indices: 
       edges: []
