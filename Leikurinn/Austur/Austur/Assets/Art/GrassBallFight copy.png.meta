@@ -188,7 +188,7 @@ TextureImporter:
         x: 79
         y: 63
         width: 8
-        height: 15
+        height: 13
       alignment: 9
       pivot: {x: 0.89506185, y: 0.43729198}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,10 +345,10 @@ TextureImporter:
       name: GrassBallFight copy_10
       rect:
         serializedVersion: 2
-        x: 16
-        y: 33
-        width: 14
-        height: 46
+        x: 79
+        y: 76
+        width: 8
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
