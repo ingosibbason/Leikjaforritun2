@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
 
     public float MoveSpeed;
     public float JumpForce;
@@ -18,16 +19,23 @@ public class PlayerController : MonoBehaviour {
     public LayerMask WhatIsGround;
 
     public bool IsGrounded;
-    
-    
-    void Start() {
+
+    private Animator anim;
+
+
+
+    void Start()
+    {
 
         theRB = GetComponent<Rigidbody2D>();
-        
+
+        anim = GetComponent<Animator>();
+
     }
 
 
-    void Update() {
+    void Update()
+    {
 
         IsGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, GroundCheckRadius, WhatIsGround);
 
@@ -35,21 +43,26 @@ public class PlayerController : MonoBehaviour {
         {
             theRB.velocity = new Vector2(-MoveSpeed, theRB.velocity.y);
 
-        } else if(Input.GetKey(right))
+        }
+        else if (Input.GetKey(right))
         {
             theRB.velocity = new Vector2(MoveSpeed, theRB.velocity.y);
 
-        } else {
+        }
+        else
+        {
 
             theRB.velocity = new Vector2(0, theRB.velocity.y);
 
         }
 
-        if(Input.GetKeyDown(jump) && IsGrounded)
+        if (Input.GetKeyDown(jump) && IsGrounded)
         {
             theRB.velocity = new Vector2(theRB.velocity.x, JumpForce);
-        }    
-        
-        
+        }
+
+        anim.SetFloat("Speed", theRB.velocity.x);
+        anim.SetBool("Grounded", IsGrounded);
+
     }
 }
