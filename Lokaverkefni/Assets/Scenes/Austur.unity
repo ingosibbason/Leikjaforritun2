@@ -735,7 +735,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 242454870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5fcc2500aa62a409c9ee984ba70a74, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a0e3eb38ba5db40b8dec800f332b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 5
@@ -1560,7 +1560,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.384091
+  orthographic size: 6.33696
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8128,7 +8128,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2094933357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5fcc2500aa62a409c9ee984ba70a74, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a0e3eb38ba5db40b8dec800f332b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 5

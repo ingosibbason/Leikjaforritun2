@@ -1961,7 +1961,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.7383237
+  orthographic size: 5.6433825
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4584,7 +4584,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.72, y: 1.12}
+    oldSize: {x: 1.24, y: 1.08}
     newSize: {x: 1.24, y: 1.08}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4602,7 +4602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1543900287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e67abd86e61304085186cc38b5611f, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a0e3eb38ba5db40b8dec800f332b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 5
@@ -4933,7 +4933,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1705151884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e67abd86e61304085186cc38b5611f, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a0e3eb38ba5db40b8dec800f332b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 5

@@ -36,9 +36,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
+        // Checkar hvort að Playerinn sé að snerta jörðina 
         IsGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, GroundCheckRadius, WhatIsGround);
-
+        // Keybindings fyrir leikinn
         if (Input.GetKey(left))
         {
             theRB.velocity = new Vector2(-MoveSpeed, theRB.velocity.y);
