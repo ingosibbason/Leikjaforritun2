@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public KeyCode left;
     public KeyCode right;
     public KeyCode jump;
+    public KeyCode attack;
 
     private Rigidbody2D theRB;
 
@@ -70,6 +71,11 @@ public class PlayerController : MonoBehaviour
         else if (theRB.velocity.x > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
+        }
+
+        if (Input.GetKeyDown(attack))
+        {
+            anim.SetTrigger("Attack");
         }
 
 
