@@ -4814,7 +4814,7 @@ MonoBehaviour:
   left: 276
   right: 275
   jump: 273
-  attack: 323
+  attack: 303
   GroundCheckPoint: {fileID: 42119285}
   GroundCheckRadius: 0.2
   WhatIsGround:
