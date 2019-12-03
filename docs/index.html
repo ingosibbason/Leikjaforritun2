@@ -25,6 +25,14 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- WEG GL Files -->
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/landvaettir.json", {onProgress: UnityProgress});
+  </script>
+
   <!-- =======================================================
     Theme Name: Rapid
     Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
@@ -52,6 +60,7 @@
         <ul>
           <li class="active"><a href="#intro">Heim</a></li>
           <li><a href="#about">Um leikinn</a></li>
+          <li><a href="#play">Spila leikinn</a></li>
           <li><a href="#services"> Karakterar </a></li>
           <li><a href="#why-us"> Borðin </a></li>
           <li><a href="#pricing">Spila leikinn</a></li>
@@ -108,6 +117,26 @@
       </div>
 
     </section><!-- #about -->
+
+    <section id="play">
+
+      <div class="container">
+        <div class="row">
+          <div class="webgl-content">
+            <div id="gameContainer" style="width: 960px; height: 600px"></div>
+             <div class="footer">
+               <div class="webgl-logo"></div>
+             <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title"></div>
+          </div>
+        </div>
+          
+
+          
+        </div>
+      </div>
+
+    </section><!-- #play -->
 
 
     <!--==========================
