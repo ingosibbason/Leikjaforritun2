@@ -52,7 +52,7 @@ public class MainMenu : MonoBehaviour
             StoryBackground.sprite = South;
             StoryText.text = Intro + SouthStory;
         }
-        else if (levelName == "Noður")
+        else if (levelName == "Norður")
         {
             StoryBackground.sprite = North;
             StoryText.text = Intro + NorthStory;
