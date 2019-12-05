@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Austur.unity
     guid: e855bd44dd7275c4fa7069ea4f21d85a
   - enabled: 1
-    path: "Assets/Scenes/No\xF0ur.unity"
+    path: "Assets/Scenes/Nor\xF0ur.unity"
     guid: dc73f9b027583496a822967c9f342bdf
   - enabled: 1
     path: "Assets/Scenes/Su\xF0ur.unity"
